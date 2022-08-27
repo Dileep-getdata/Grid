@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(14, 14, 47);
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    
+    display: grid; 
+    grid-template-areas: 'community community' 'card why-us';
+    text-align: center; 
+    margin: 80px;    
+    border-radius: 11px;
+    font-size: 25px;
+    
+}
+.community{
+    background-color: rgb(255, 253, 253);
+    grid-area: community;
+    padding: 50px 60px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+.why-us{
+    color: white;
+    background-color: rgba(85, 145, 142, 0.698);
+    grid-area: why-us;
+    padding: 20px;
+    font-size: 30px;
+   border-bottom-right-radius: 11px;
+    
+}
+.card{
+    color: white;
+    background-color: rgb(15, 67, 66);
+   grid-area: card;
+   padding: 50px;
+   border-bottom-left-radius: 11px;
+  
+}
+h1#line_one{
+    color: rgb(63, 219, 240);
+}
+h1#line_two{
+    color: green;
+}
+h1#line_three{
+    color: gray;
+}
+button{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 70px;
+}
+#price{
+font-size: 50px;
+}
